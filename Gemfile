@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 ruby '1.9.3'
 gem 'rails', '3.2.0'
-gem 'sqlite3'
 gem 'recurly', '>= 2.1.5'
 gem 'nokogiri', '>= 1.5.5'
 gem 'countries', '>= 0.8.4'
 gem 'httpi', '>= 1.1.1'
 gem 'httpclient', '>= 2.3.0.1'
+gem 'mysql2', '=0.3.11'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
